@@ -34,7 +34,7 @@ If you're using these instructions anyway, I recommend that you download alignme
 ``` chmod +x alignment_pipeline.sh```
 ``` bash alignment_pipeline.sh```
 
-BUTTT if you're just getting started and want to test out just one alignment instead of all four in queue, run one line at a time straight away in terminal. This might help you debug. may the force be with you. \
+BUTTT if you're just getting started and want to test out just one alignment instead of all four in queue, run one line at a time straight away in terminal. This might help you debug. may the force be with you. 
 
 peace and flies,\
 V
