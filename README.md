@@ -20,3 +20,21 @@ here,
 - YOUR_SAMPLE = Sage1,
 - output directory is ```quantification/RUN_ID``` \
 ```cellranger count --id=RUN_ID --fastqs=fastq/RUN_ID --sample=YOUR_SAMPLE --transcriptome=quantification/reference_genome/dmel6-59/ --output-dir=quantification/RUN_ID --create-bam true ```
+
+### IMPORTANT: READ BEFORE RUNNING CELLRANGER
+Alignments usually take 19-20 hours for 4 samples. If the terminal window ever disconnects or closes during that time it will kill the run so I recommend starting a screen on the terminal tab to be safe. You can do that using this command: \
+
+```screen -S your_screen_name ``` \
+and detach the screen when you're done or if you need to kill the process for some reason. \
+
+The lab computer has 24 cores (? don't quote me on this it's been a while) so you can also monitor if it's running properly by going to task manager and checking cpu usage. Or open a new ubuntu terminal tab and run ``htop`` to see the running processes. 
+
+#### Finally
+If you're using these instructions anyway, I recommend that you download alignment.sh and edit your filenames and then just doing 
+``` chmod +x alignment_pipeline.sh```
+``` bash alignment_pipeline.sh```
+
+BUTTT if you're just getting started and want to test out just one alignment instead of all four in queue, run one line at a time straight away in terminal. This might help you debug. may the force be with you. \
+
+peace and flies,\
+V
