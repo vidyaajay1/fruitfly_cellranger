@@ -22,10 +22,10 @@ here,
 ```cellranger count --id=RUN_ID --fastqs=fastq/RUN_ID --sample=YOUR_SAMPLE --transcriptome=quantification/reference_genome/dmel6-59/ --output-dir=quantification/RUN_ID --create-bam true ```
 
 ### IMPORTANT: READ BEFORE RUNNING CELLRANGER
-Alignments usually take 19-20 hours for 4 samples. If the terminal window ever disconnects or closes during that time it will kill the run so I recommend starting a screen on the terminal tab to be safe. You can do that using this command: \
+Alignments usually take 19-20 hours for 4 samples. If the terminal window ever disconnects or closes during that time it will kill the run so I recommend starting a screen on the terminal tab to be safe. You can do that using this command: 
 
-```screen -S your_screen_name ``` \
-and detach the screen when you're done or if you need to kill the process for some reason. \
+```screen -S your_screen_name ``` 
+and detach the screen when you're done or if you need to kill the process for some reason. 
 
 The lab computer has 24 cores (? don't quote me on this it's been a while) so you can also monitor if it's running properly by going to task manager and checking cpu usage. Or open a new ubuntu terminal tab and run ``htop`` to see the running processes. 
 
